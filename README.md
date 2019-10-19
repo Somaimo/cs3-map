@@ -43,3 +43,28 @@ Everything is provided as Docker images, so dev and test deployments are easy. F
 
 ## Commands
 
+### General django commands
+
+Initialize new project:
+
+```shell
+django-admin startproject cs3
+```
+
+Start Server (in project folder where manage.py is):
+
+```shell
+python manage.py runserver
+```
+
+Do migrations:
+
+```shell
+python manage.py migrate
+```
+
+create new app:
+
+```shell
+python manage.py migrate
+```
